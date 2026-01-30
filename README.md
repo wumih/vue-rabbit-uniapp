@@ -144,11 +144,15 @@ npm run dev:h5
 │       ├── index               # 首页
 │       ├── category            # 分类页
 │       ├── cart                # 购物车
+│       │   ├── components      # 购物车子组件
+│       │   │   └── CartMain.vue  # 购物车业务组件
+│       │   ├── cart.vue        # TabBar 购物车页
+│       │   └── cart2.vue       # 普通购物车页
 │       ├── my                  # 我的
 │       ├── goods               # 商品详情
-│       └── hot                 # 热门推荐
+│       ├── hot                 # 热门推荐
 │       └── login               # 登录页
-│   ├── pagesMember            # 分包页面(用户模块)
+│   ├── pagesMember            # 分包页面(用户会员模块)（按需加载）
 │       ├── address             # 地址管理
 │       ├── address-form        # 地址表单
 │       ├── profile             # 用户信息
